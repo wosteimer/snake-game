@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "snake-game"
+version = "0.1.0"
+description = ""
+authors = ["William Osteimer Cardoso dos Anjos <wosteimer1@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.971"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
